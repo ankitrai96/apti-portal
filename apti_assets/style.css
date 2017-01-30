@@ -1,0 +1,201 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding:0;
+  margin: auto;
+  overflow: auto;
+}
+body {
+  background-color: 00bfff;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a:hover {
+  color: hotpink;
+}
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select {
+    width: 35%;
+    padding: 8px 16px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#login_box{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    z-index: 10;
+    border: green 3px solid;
+    display: block;
+}
+#signup_box {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    z-index: 10;
+    border: 3px blue solid;
+    display: none;
+}
+#admin_box {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    z-index: 10;
+    display: none;
+    border: 3px red solid;
+}
+#quesbox {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 65%;
+    margin: auto;
+    z-index: 10;
+    border: 2px black solid;
+    display: none;
+}
+/*custom dialog*/
+#dialogoverlay{
+  display: none;
+  opacity: .8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #FFF;
+  width: 100%;
+  z-index: 10;
+}
+#dialogbox{
+  display: none;
+  position: fixed;
+  background: #000;
+  border-radius:4px;
+  width: 550px;
+  z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:18px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:8px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:20px; text-align:right; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #333;
+}
+li {
+    display: block;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+.container{
+  width: 95%;
+  margin: 0px auto;
+  top: 30px;
+  position: relative;
+}
+.sub {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    width: 60%;
+    margin: 50px auto;
+    position: relative;
+    border: 2px black solid;
+    /*display: none;*/
+}
+#add_q {
+  display: block;
+}
+#dele {
+  display: none;
+}
+
+#test_stat {
+  display: none;
+}
+#results {
+  display: none;
+}
+#toggle {
+  display: block;
+}
+#append_table{
+  display: none;
+}
+tr:hover{
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+td{
+  float: left;
+}
+table{
+  padding-left: 20px;
+  text-align: center;
+}
