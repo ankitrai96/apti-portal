@@ -2,7 +2,7 @@
 ### online aptitude test platform based on hypertext preprocessor 
 
 ## Background
-My college occasionally conducts NAT (i.e. NIET Aptitude Test). The test is designed by faculty members to help groom students' aptitude and reasoning. So, being a computer science student with inclination towards information techonology, I decided to develope a platform that would facilitate both faculty members as well as students.
+My college occasionally conducts NAT (i.e. NIET Aptitude Test). The test is designed by faculty members to help groom students' aptitude and reasoning. So, being a computer science student with inclination towards information techonology, I took the liberty to develope a platform that would facilitate both faculty members as well as students.
 
 ## MODULES:-
 ### * cPanel
